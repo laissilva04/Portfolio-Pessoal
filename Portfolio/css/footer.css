@@ -1,0 +1,43 @@
+.footer {
+    background: #000000;
+    color: #ffffff;
+}
+.footer-container {
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.github, .gmail, .instagram, .linkedin{
+    display: flex;
+    grid-template-columns: 1fr; 
+    justify-content: right;
+    margin-right: 0;
+}
+.github p,.gmail p,.instagram p, .linkedin p{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;  
+    margin-right: 15px; 
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-texto {
+    margin-top: 50px;
+    color: #c4c4c4;
+    line-height: 35px;
+    font-size: 24px;
+    max-width: 32ch;
+    font-family: 'Fira Sans', Arial, sans-serif;
+}
+.footer-direitos{
+    color: #c7c7c7;
+}
+
+
+
