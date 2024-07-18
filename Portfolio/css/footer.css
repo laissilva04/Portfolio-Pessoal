@@ -38,6 +38,16 @@
 .footer-direitos{
     color: #c7c7c7;
 }
-
+@media (max-width: 600px){
+    .github p,.gmail p,.instagram p, .linkedin p {
+        font-size: 15px;
+    }
+    .footer-icons{
+        margin-top: 20px;
+    }
+    .footer-texto{
+        line-height: 1.7rem;
+    }
+}
 
 
